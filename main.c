@@ -126,7 +126,7 @@ void modifyMemory(CPU *cpu) {
         print_memory(cpu); // Print current CPU state
 
         // Prompt user for input
-        printf("\nEnter memory addresses and values to modify (e.g., '0 100 2 255'): ");
+        printf("\nEnter memory addresses and values to modify (e.g., '0 (memory) 100 (opcode or value) 2 (memory) 255 (opcode or value) '): ");
         fgets(input, sizeof(input), stdin);
         input[strcspn(input, "\n")] = 0;  // Remove trailing newline
 
