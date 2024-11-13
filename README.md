@@ -16,6 +16,9 @@ Welcome to the **Hands-On CPU Learning Tool**, designed to help you understand C
 
 ---
 
+![image](https://github.com/user-attachments/assets/922b804a-f3f4-4d6f-a185-1e4830957bf1)
+
+
 ## Opcodes
 
 ### `0x01 - LOAD`
